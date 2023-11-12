@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Defori", "Defori\Defori.csproj", "{AA6B8DA4-2BCB-4074-93BC-418905B24ACE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A910EBD5-7E6D-42C8-B6A3-60367A8786FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeforiWpfTest", "Tests\DeforiWpfTest\DeforiWpfTest.csproj", "{6B0E51B2-71D4-4B82-8678-00CB73DFDF2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{AA6B8DA4-2BCB-4074-93BC-418905B24ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA6B8DA4-2BCB-4074-93BC-418905B24ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA6B8DA4-2BCB-4074-93BC-418905B24ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B0E51B2-71D4-4B82-8678-00CB73DFDF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0E51B2-71D4-4B82-8678-00CB73DFDF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0E51B2-71D4-4B82-8678-00CB73DFDF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0E51B2-71D4-4B82-8678-00CB73DFDF2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B0E51B2-71D4-4B82-8678-00CB73DFDF2A} = {A910EBD5-7E6D-42C8-B6A3-60367A8786FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE4796BD-812F-44C5-A49C-11B28BF8C238}
